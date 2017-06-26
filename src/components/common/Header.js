@@ -4,7 +4,8 @@ import { Text, View } from 'react-native'; // Destructured import.
 
 // Make a component
 const Header = (props) => {
-    const { textStyle, viewStyle } = styles; // Could remove and reference stylse by style.viewStyle etc
+    const { textStyle, viewStyle } = styles;
+    // Could remove and reference stylse by style.viewStyle etc
 
     return (
         <View style={viewStyle}>
